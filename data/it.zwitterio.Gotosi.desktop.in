@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=gotosi-gtk
+Exec=gotosi-gtk
+Icon=it.zwitterio.Gotosi
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

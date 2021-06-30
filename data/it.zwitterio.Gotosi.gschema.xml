@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gotosi-gtk">
+	<schema id="it.zwitterio.Gotosi" path="/it/zwitterio/Gotosi/">
+	</schema>
+</schemalist>

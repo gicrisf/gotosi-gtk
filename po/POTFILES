@@ -1,0 +1,7 @@
+data/it.zwitterio.Gotosi.desktop.in
+data/it.zwitterio.Gotosi.appdata.xml.in
+data/it.zwitterio.Gotosi.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+
