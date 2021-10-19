@@ -4,7 +4,53 @@
 
 ![gotosi-animated-screenshot](gotosi-hq.gif)
 
-## Atomic Weights and Isotopic Compositions with Relative Atomic Masses
+## Compile and install 
+
+First of all, git clone this repo and cd into it.
+
+Then make a new directory:
+
+```
+$ mkdir build
+```
+
+go inside 
+
+```
+$ cd build
+```
+
+launch meson
+
+```
+$ meson ..
+```
+
+launch ninja 
+
+```
+$ ninja
+```
+
+launch the compiled program
+
+```
+$ ./src/gotosi-gtk
+```
+
+In order to install it:
+```
+$ ninja install
+```
+
+Then you can launch it just like this
+```
+$ gotosi-gtk
+```
+
+## Data
+
+### Atomic Weights and Isotopic Compositions with Relative Atomic Masses
 
 Original Dataset Developers and Contributors:
 J. S. Coursey, D. J. Schwab, J. J. Tsai, and R. A. Dragoset
@@ -14,7 +60,7 @@ NIST Physical Measurement Laboratory
 
 These data have been compiled from the above sources for the user's convenience and does not represent a critical evaluation by the NIST Physical Measurement Laboratory.
 
-### Code Example
+#### Code Example
 
 ```json
 {
@@ -28,7 +74,7 @@ These data have been compiled from the above sources for the user's convenience 
   }
 ```
 
-### Properties Description
+#### Properties Description
 
 - **Atomic Number**
 
@@ -56,17 +102,17 @@ These data have been compiled from the above sources for the user's convenience 
 
 > Brackets [ ] enclosing a single value indicate the mass number of the most stable isotope. For radioactive elements with atomic numbers 95 or greater, the mass number of the most stable isotope is not specified, as the list of studied isotopes is still incomplete.
 
-### Notes
+#### Notes
 
-#### Notes for Representative Isotopic Composition and Standard Atomic Weight
+##### Notes for Representative Isotopic Composition and Standard Atomic Weight
 
 - **g**:	Geological materials are known in which the element has an isotopic composition outside the limits for normal material. The difference between the atomic weight of the element in such materials and that given in the table may exceed the stated uncertainty.
 - **m**:	Modified isotopic compositions may be found in commercially available material because the material has been subjected to an undisclosed or inadvertent isotopic fractionation. Substantial deviations in atomic weight of the element from that given in the table can occur.
 - **r**:	Range in isotopic composition of normal terrestrial material prevents a more precise standard atomic weight being given; the tabulated atomic-weight value and uncertainty should be applicable to normal materials.
 
-## Nuclear Spin and half-life
+### Nuclear Spin and half-life
 
-### Code Example 
+#### Code Example 
 
 ```json
 {
